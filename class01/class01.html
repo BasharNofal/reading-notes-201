@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        class01
+    </title>
+
+    <style>
+
+       body{
+           background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/1b/69/cd/1a/summer-vibes.jpg");
+           background-repeat: no-repeat;
+           background-size: 1370px 700px; 
+           border: 3px   solid black;
+
+       }
+       
+       
+    </style>
+</head>
+<body>
+ <header>
+    <h1>
+      Class 1 Lab
+    </h1>
+    <h3>
+        Bashar's Restaurant
+    </h3>
+ </header>
+
+<nav>
+    <ul>
+
+        <li>Home page</li>
+        <li>Contact us</li>
+        <li>Help</li>
+
+    </ul>
+</nav>
+
+<main>
+    <p style="background-color: red; color: blue; " >Please, enter your name</p>
+    <p style="background-color: white; color: darkgreen;">Please, enter your password</p>
+    <p style="background-color:silver;color: darkblue;">What would you like to eat "name" ?</p>
+    <p style="background-color: skyblue;color: brown;">Great choice, how many orders do want to get ?</p>
+</main>
+
+<footer>
+    <script>
+
+        var name = prompt("Please, enter your name");
+        alert("Hello "+ name + "!");
+        console.log(name);
+
+        var password=prompt("Please, enter your password (anything)");
+        alert(password +" is the correct password ");
+        console.log(password);
+
+        var food=prompt("What would you like to eat " + name +" ?");
+        alert(food +" is available on the menu today");
+        console.log(food);
+         
+        var number=prompt("Great choice, how many orders do want to get ?");
+        alert("enjoy all of your "+number +" "+food);
+        console.log(number);
+
+    </script>
+
+
+
+</footer>
+
+
+</body>
+
+</html>

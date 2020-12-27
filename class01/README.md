@@ -9,9 +9,11 @@ HTML adds elements to websites and by elements I mean text, images, links ... et
 HTML uses *HTML elements* which consist of openning and closing *tags* between which where the HTML code is written as shown below 
 
 ```
+
 <html>
 html code 
 </html> 
+
 ```
 
 There are many different tags in HTML that have many different finctions, and by add *attributes* which describe or provide more information about the HTML elements, attributes also have value that provides inforamtion about the attributes, here is an example about adding an image to a webiste:
