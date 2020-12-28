@@ -1,0 +1,28 @@
+body{
+    
+    background-color: silver;
+    
+}
+
+img{
+
+    border:solid black 3px;
+    margin-left: 100px;
+}
+
+h4{
+    font-weight: bold;
+    margin: 10px 10px 10px 20px;
+    font-size: 120%;
+}
+
+h2{
+    
+    font-weight: bold;
+    font-size: 200%;
+    margin: 40px ;
+}
+
+p{
+    margin: 10px 10px 10px 15px;
+}
