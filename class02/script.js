@@ -6,7 +6,7 @@ alert("Hello! " + name );
 alert("I like your name, so let us play a game, and regardless of who is gonna win, I am gonna show a small magic trick");
 
 var age= prompt("am i 40 years old ? (y/n)");
-if (age.toLowerCase()==="y") {
+if (age.toLowerCase()!=="y") {
     //console.log(age);
     alert("That is correct, i mean if was that old i would not be here");
 } else{
