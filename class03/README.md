@@ -61,7 +61,7 @@ where `<ul></ul>` indicates that this is an unordered list, and `<li></li>` the 
 ``` 
 where `<dl></dl>` indicates that this is a definition list, `<dt></dt>` the term that you want to define, and `<dd></dd>` the defintion itself.
 
-![Definition list](Capture.png)
+![Definition list](img/Capture.PNG)
 
 And of course you can add list inside of another list which we call *nested list*.
 

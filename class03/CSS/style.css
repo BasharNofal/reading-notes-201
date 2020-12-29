@@ -1,0 +1,44 @@
+body{
+    
+    background:url("https://i.ytimg.com/vi/it-jSj7hA_Y/maxresdefault.jpg") no-repeat;
+    background-size: 1368px 720px;
+    
+}
+
+img{
+
+    border:solid black 3px;
+    margin-left: 100px;
+}
+
+h4{
+    font-weight: bold;
+    margin: 10px 10px 10px 20px;
+    font-size: 120%;
+}
+
+h2{
+    text-align: center;
+    font:200% bold ;
+    color: red;
+    margin-bottom: 50px;
+    /* font-size: 200%;
+    margin: 40px ; */
+}
+
+li{
+    margin: 10px 10px 10px 35px;
+    color: silver;
+}
+
+ul{
+    list-style-type:'> '
+}
+ol{
+    list-style-type:lower-alpha;
+}
+h4{
+    border: dashed darkred 2px;
+    display: inline-block;
+    background-image: url(https://wallpaperaccess.com/full/929701.jpg);
+}
