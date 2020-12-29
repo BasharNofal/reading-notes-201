@@ -94,3 +94,71 @@ It's worth to mention that there is property called `visiablity` and by using th
 ### Duckett JS 
 
 #### Chapter 2: “Basic JavaScript Instructions” (pp.70-73)
+
+There are many ways to define array in JS, here is the preferred one:
+
+`var arr=[1,2,3];`
+
+Each item in the array is given an index number by default, starting from the number 0, so you refer to the second item in our example by `arr[1]`.
+
+
+#### Chapter 4: “Decisions and Loops” from switch statements on (pp.162-182)
+
+*Switch* is used when having a condition and there are many different possible outcomes, so it's more convenient to use *switch* than multiple *if else* statements.
+
+On of the benefits of using *switch* over *if else* is switch faster since it doesn't check for statement with fault outcome.
+
+```
+switch(variable){
+   case "value1":
+     "statement1";
+     break;
+   
+   case "value2":
+     "statement2";
+     break;
+   
+   case "vlaue3":
+     "statement3";
+     break;
+        .
+        .
+        .
+       etc
+}
+```
+What switch will do is to check for the value of variable, and executes the statement with matching value, then it will exit the switch statement since there is break command without checking the next statements.
+
+
+Loops in general are used when you want certain commands to be executed multiple times until certain condition is achieved.
+
+The difference between while loops and for loops can be illustrated by showing the syntax for both commnads:
+
+For Loops Syntax
+
+```
+for ("variable"="value 1";"variable" "comparsion operator" "value 2";"counter"){
+
+    "the commands that you want them to be repeated";
+}
+
+``` 
+The sequence of for loops is after "variable" is defined the condition statement will be checked if its resault was true the commands between the curly brackets get executed and then "counter" gets executed, and this goes on until the condition statement's results is false.
+
+![For loops](https://www.homeandlearn.co.uk/javascript/images/chapter_3/for_loops.gif)
+
+While Loops Syntax
+
+```
+while ("condition statement"){
+
+    "the commands that you want them to be repeated";
+}
+
+``` 
+
+While looops sequence is similar to for loops sequence, the commands will be executed after the condition statement is checked and the result is true, and this goes on until the condition statement's results is false.2
+
+![While loops](https://www.tutorialgateway.org/wp-content/uploads/JavaScript-While-Loop-1.png)
+
+
