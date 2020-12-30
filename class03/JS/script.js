@@ -1,5 +1,6 @@
 'use strict';
 
+var mark =0;
 var name = prompt("what is your name ?");
 //console.log(name);
 alert("Hello! " + name);
@@ -12,6 +13,7 @@ while (age.toLowerCase() !== "y" && age.toLowerCase() !== "n") {
 if (age.toLowerCase() !== "y") {
     //console.log(age);
     alert("That is correct, i mean if was that old i would not be here");
+    mark ++;
 } else {
     //console.log(age);
     alert("Wrong answer :(");
@@ -27,6 +29,7 @@ if (favFood.toLowerCase() === "y") {
 } else {
     //console.log(favFood);
     alert("Apparantly, this is your lucky day, i wish i had half the luck that you have");
+    mark ++;
 }
 
 var favOnlineGame = prompt("is CS:GO my favourite online game ? (y/n)")
@@ -36,6 +39,7 @@ while (favOnlineGame.toLowerCase() !== "y" && favOnlineGame.toLowerCase() !== "n
 if (favOnlineGame.toLowerCase() === "y") {
     //console.log(favOnlineGame);
     alert("That is correct");
+    mark ++;
 } else {
     //console.log(favOnlineGame);
     alert("Wrong answer :(");
@@ -47,6 +51,7 @@ while (favCarbrand.toLowerCase() !== "y" && favCarbrand.toLowerCase() !== "n") {
 }
 switch (favCarbrand.toLowerCase()) {
     case "y":
+        mark++;
         var urFavCar = prompt("that is correct, is it your favourite too ? (y/n)");
         while (urFavCar.toLowerCase() !== "y" && urFavCar.toLowerCase() !== "n") {
             urFavCar = prompt("Please, enter y or n only");
@@ -72,6 +77,7 @@ while (age.toLowerCase() !== "y" && age.toLowerCase() !== "n") {
     age = prompt("Please, enter y or n only");
 }
 if (feelingAboutCourse.toLocaleLowerCase() === "y") {
+    mark ++;
     //console.log(feelingAboutCours);
     alert("correct answer, it was a very easy question");
 } else {
@@ -88,6 +94,7 @@ do {
     // console.log("user's guess "+ urGuess);
     // console.log("the counter "+numCount);
     if (urGuess == guessNum) {
+        mark ++;
         break;
     } else if (urGuess > guessNum) {
         alert("Too high");
@@ -101,6 +108,7 @@ do {
 // console.log("the num "+ guessNum);
 
 if (urGuess == guessNum) {
+    mark ++;
     alert("Nice guess !");
 } else {
     alert("Hard luck :(, the number was 8");
@@ -115,6 +123,7 @@ do {
     for (var govNum = 0; govNum < 12; govNum++) {
         switch (govName.toLowerCase()) {
             case jorGov[govNum]:
+                mark ++;
                 alert("correct answer !");
                 console.log(govName);
                 i++;
@@ -123,7 +132,11 @@ do {
     }
     attempt2++;
     console.log(attempt2);
-} while ((attempt2 < 6) && (i !== 1));
+} while ((attempt2 < jorGov.length) && (i !== 1));
+// alert("your answer was "+ govName +" the correct answers are " + jorGov);
+alert("your final resault is "+mark+" out of 7");
+
+
 
 
 
