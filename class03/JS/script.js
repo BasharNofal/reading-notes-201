@@ -115,26 +115,33 @@ if (urGuess == guessNum) {
 }
 
 var jorGov = ["amman", "irbid", "aqaba", "karak", "zarqa", "mafraq", "ajloun", "jarash", "madaba", "balqa", "tafileh", "maan"];
-var govName = prompt("Write down one name of the twelve governorates of Jordan, you have six attempts to write one correct answer.");
 var attempt2 = 0;
 var i = 0;
 do {
-    govName = prompt("wrong answer, try again");
+    if (attempt2 == 0) {
+        var govName = prompt("Write down one name of the twelve governorates of Jordan, you have six attempts to write one correct answer.");
+    }else{
+        govName = prompt("wrong answer, try again");
+
+    }
     for (var govNum = 0; govNum < 12; govNum++) {
         switch (govName.toLowerCase()) {
             case jorGov[govNum]:
-                mark ++;
+                mark++;
                 alert("correct answer !");
                 console.log(govName);
                 i++;
                 break;
         }
     }
+
     attempt2++;
     console.log(attempt2);
+   
+  
 } while ((attempt2 < jorGov.length) && (i !== 1));
-// alert("your answer was "+ govName +" the correct answers are " + jorGov);
-alert("your final resault is "+mark+" out of 7");
+alert("your answer was "+ govName +" the correct answers are " + jorGov);
+alert("your final resault is " + mark + " out of 7");
 
 
 
