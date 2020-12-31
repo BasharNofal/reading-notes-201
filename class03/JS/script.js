@@ -1,10 +1,10 @@
 'use strict';
+var mark = 0;
 
-var mark =0;
 var name = prompt("what is your name ?");
 //console.log(name);
 alert("Hello! " + name);
-alert("I like your name, so let us play a game, and regardless of who is gonna win, I am gonna show a small magic trick");
+alert("I like your name, so let us play a guessing game");
 
 var age = prompt("am i 40 years old ? (y/n)");
 while (age.toLowerCase() !== "y" && age.toLowerCase() !== "n") {
@@ -13,11 +13,13 @@ while (age.toLowerCase() !== "y" && age.toLowerCase() !== "n") {
 if (age.toLowerCase() !== "y") {
     //console.log(age);
     alert("That is correct, i mean if was that old i would not be here");
-    mark ++;
+    mark++;
 } else {
     //console.log(age);
     alert("Wrong answer :(");
 }
+
+
 
 var favFood = prompt("is Maqloba my favourite food ? (y/n)");
 while (favFood.toLowerCase() !== "y" && favFood.toLowerCase() !== "n") {
@@ -29,8 +31,10 @@ if (favFood.toLowerCase() === "y") {
 } else {
     //console.log(favFood);
     alert("Apparantly, this is your lucky day, i wish i had half the luck that you have");
-    mark ++;
+    mark++;
 }
+
+
 
 var favOnlineGame = prompt("is CS:GO my favourite online game ? (y/n)")
 while (favOnlineGame.toLowerCase() !== "y" && favOnlineGame.toLowerCase() !== "n") {
@@ -39,11 +43,13 @@ while (favOnlineGame.toLowerCase() !== "y" && favOnlineGame.toLowerCase() !== "n
 if (favOnlineGame.toLowerCase() === "y") {
     //console.log(favOnlineGame);
     alert("That is correct");
-    mark ++;
+    mark++;
 } else {
     //console.log(favOnlineGame);
     alert("Wrong answer :(");
 }
+
+
 
 var favCarbrand = prompt("is Mercedes my favourite car brand ? (y/n)");
 while (favCarbrand.toLowerCase() !== "y" && favCarbrand.toLowerCase() !== "n") {
@@ -67,21 +73,25 @@ switch (favCarbrand.toLowerCase()) {
                 break;
         }
     case "n":
-        //console.log(favCarbrand);
-        alert("worng answer, you are bad at this :p");
-        break;
+        if (favCarbrand.toLocaleLowerCase() !== "y") {
+            //console.log(favCarbrand);
+            alert("worng answer, you are bad at this :p");
+            break;
+        }
 }
 
+
+
 var feelingAboutCourse = prompt("am i enjoying this course ? (y/n)");
-while (age.toLowerCase() !== "y" && age.toLowerCase() !== "n") {
-    age = prompt("Please, enter y or n only");
+while (feelingAboutCourse.toLowerCase() !== "y" && feelingAboutCourse.toLowerCase() !== "n") {
+    feelingAboutCourse = prompt("Please, enter y or n only");
 }
 if (feelingAboutCourse.toLocaleLowerCase() === "y") {
-    mark ++;
+    mark++;
     //console.log(feelingAboutCours);
     alert("correct answer, it was a very easy question");
 } else {
-    alert("of course i am, your answer actually made me mad, get off my face!");
+    alert("of course i am, your answer actually made me mad");
     window.close();
 }
 
@@ -94,7 +104,7 @@ do {
     // console.log("user's guess "+ urGuess);
     // console.log("the counter "+numCount);
     if (urGuess == guessNum) {
-        mark ++;
+        mark++;
         break;
     } else if (urGuess > guessNum) {
         alert("Too high");
@@ -108,11 +118,11 @@ do {
 // console.log("the num "+ guessNum);
 
 if (urGuess == guessNum) {
-    mark ++;
     alert("Nice guess !");
 } else {
     alert("Hard luck :(, the number was 8");
 }
+
 
 var jorGov = ["amman", "irbid", "aqaba", "karak", "zarqa", "mafraq", "ajloun", "jarash", "madaba", "balqa", "tafileh", "maan"];
 var attempt2 = 0;
@@ -120,7 +130,7 @@ var i = 0;
 do {
     if (attempt2 == 0) {
         var govName = prompt("Write down one name of the twelve governorates of Jordan, you have six attempts to write one correct answer.");
-    }else{
+    } else {
         govName = prompt("wrong answer, try again");
 
     }
@@ -137,32 +147,11 @@ do {
 
     attempt2++;
     console.log(attempt2);
-   
-  
+
+
 } while ((attempt2 < jorGov.length) && (i !== 1));
-alert("your answer was "+ govName +" the correct answers are " + jorGov);
+alert("your answer was " + govName + " the correct answers are " + jorGov);
+
+
 alert("your final resault is " + mark + " out of 7");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

@@ -3,9 +3,8 @@ var mark = 0;
 function yourName() {
 
     var name = prompt("what is your name ?");
-    //console.log(name);
     alert("Hello! " + name);
-    alert("I like your name, so let us play a guessing game");
+    alert("I like your name, so let us play a gussing game");
 }
 
 function firstQ() {
@@ -14,11 +13,9 @@ function firstQ() {
         age = prompt("Please, enter y or n only");
     }
     if (age.toLowerCase() !== "y") {
-        //console.log(age);
         alert("That is correct, i mean if was that old i would not be here");
         mark++;
     } else {
-        //console.log(age);
         alert("Wrong answer :(");
     }
 }
@@ -29,10 +26,8 @@ function secondQ() {
         favFood = prompt("Please, enter y or n only");
     }
     if (favFood.toLowerCase() === "y") {
-        //console.log(favFood);
         alert("Actually it is not");
     } else {
-        //console.log(favFood);
         alert("Apparantly, this is your lucky day, i wish i had half the luck that you have");
         mark++;
     }
@@ -44,11 +39,9 @@ function thirdQ() {
         favOnlineGame = prompt("Please, enter y or n only");
     }
     if (favOnlineGame.toLowerCase() === "y") {
-        //console.log(favOnlineGame);
         alert("That is correct");
         mark++;
     } else {
-        //console.log(favOnlineGame);
         alert("Wrong answer :(");
     }
 }
@@ -67,17 +60,14 @@ function fourthQ() {
             }
             switch (urFavCar.toLocaleLowerCase()) {
                 case "y":
-                    //console.log(urFavCar);
                     alert("im liking you more and more");
                     break;
                 case "n":
-                    //console.log(urFavCar);
                     alert("im starting to change my mind about you");
                     break;
             }
         case "n":
             if (favCarbrand.toLocaleLowerCase() !== "y") {
-                //console.log(favCarbrand);
                 alert("worng answer, you are bad at this :p");
                 break;
             }
@@ -91,7 +81,6 @@ function fifthQ() {
     }
     if (feelingAboutCourse.toLocaleLowerCase() === "y") {
         mark++;
-        //console.log(feelingAboutCours);
         alert("correct answer, it was a very easy question");
     } else {
         alert("of course i am, your answer actually made me mad");
@@ -106,8 +95,6 @@ function sixthQ() {
     do {
         var urGuess = prompt("Attempt " + numCount);
         numCount++;
-        // console.log("user's guess "+ urGuess);
-        // console.log("the counter "+numCount);
         if (urGuess == guessNum) {
             mark++;
             break;
@@ -118,9 +105,6 @@ function sixthQ() {
         }
 
     } while (numCount < 5);
-
-    // console.log("usr guess "+urGuess);
-    // console.log("the num "+ guessNum);
 
     if (urGuess == guessNum) {
         alert("Nice guess !");
@@ -153,7 +137,6 @@ function seventhQ() {
 
         attempt2++;
         console.log(attempt2);
-
 
     } while ((attempt2 < jorGov.length) && (i !== 1));
     alert("your answer was " + govName + " the correct answers are " + jorGov);
