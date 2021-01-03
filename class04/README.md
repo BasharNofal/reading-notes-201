@@ -57,3 +57,10 @@ Calling function can be done as follows:
 "the name of the function"("argument);
 
 ![function](https://s3.amazonaws.com/dashingd3js/d3-lesson-images/lesson-84/javascript-function-operator-call-versus-javascript-function-expression-call_720x355.png)
+
+
+#### Pair Programming 
+
+Pair programming is basically programming with a colleauge, simply, one being the *driver* who does what ever the other *navigator* tells him to do.
+
+Pair programming has 
