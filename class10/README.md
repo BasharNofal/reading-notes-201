@@ -21,5 +21,15 @@ There are two types of variables when thinking about scopes:
 
 ##### Debugging tips
 
+* Run the code using different browser, because some errors can be caused by the browser.
 
+* Use numbers instead of variables or console log a number to check whether the executioner reaches certain line or process of your code or not.
+
+* Try to remove some parts of your code by commenting them.
+
+* Explain the code to yourself step by step.
+
+* Searching for the solution or what is causing the error in the internet.
+
+* Use inspect element in the browser and any tool the might help you reviewing the code.
 
