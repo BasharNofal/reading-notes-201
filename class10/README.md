@@ -31,5 +31,5 @@ There are two types of variables when thinking about scopes:
 
 * Searching for the solution or what is causing the error in the internet.
 
-* Use inspect element in the browser and any tool the might help you reviewing the code.
+* Use inspect element in the browser and any tool the might help you reviewing and tracking errors in your code.
 
