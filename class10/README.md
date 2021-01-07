@@ -17,7 +17,9 @@ There are two types of variables when thinking about scopes:
 
 1- Global scope variables: the variables that get declared outside function and objects, and they can be accessed from any where in the code.
 
-2- Function scope variables: the variables that get declared outside functions and objects, here you have to use special commands in order to access their values.
+2- Local scope variables: the variables that get declared outside functions and objects, here you have to use special commands in order to access their values.
 
-##### 
+##### Debugging tips
+
+
 
