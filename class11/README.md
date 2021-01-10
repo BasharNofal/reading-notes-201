@@ -38,3 +38,32 @@ When selecting no repeat there is a property called `background-attachment` wher
 
 #### Chapter 19: “Practical Information” (476-492)
 
+Search Engine Optimization (SEO): which is practices that you do to improve your chances in appearing in the search engine results, this can be done by adding the following:
+
+1- Page title.
+2- Page url.
+3- Headings.
+4- Text.
+5- Links.
+6- Image alt attribute.
+7- Page description.
+
+All of the above have to give a good description of what the page is about, and contain keywords which people is gonna search for.
+
+#### Audio and Video Tags in HTML
+
+To link an audio file use the following commands:
+
+`<audio src="" controls autoplay volume loop muted></audio>`
+
+controls: for playback controls.
+autoplay: to play the the audio file when the page loads up.
+volume: to digitally control the volume.
+loop: auto replay the audio.
+muted: mute the audio when the page loads up.
+
+`<video src="" controls autoplay width height poster volume loop muted></video>`
+
+width and height: for changing the dimension of the video.
+poster: thumbnail image.
+
