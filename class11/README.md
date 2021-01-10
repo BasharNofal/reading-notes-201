@@ -29,5 +29,12 @@ When selecting no repeat there is a property called `background-attachment` wher
 ![background attachment](img/4.PNG)
 
 
+`Background-position` allows you change the position of the background and you can choose between 9 different positioins
+
+![background position](img/5.PNG)
+
+![background position 2](img/6.PNG)
+
+
 #### Chapter 19: “Practical Information” (476-492)
 
