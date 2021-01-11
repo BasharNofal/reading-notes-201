@@ -1,5 +1,9 @@
 ## Docs for the HTML <canvas> Element & Chart.js
 
+### The <canvas> Element
+
+Canvas element is basically a blank area that's added on your HTML page after adding canvas element, the blank area can be filled with different drawings -depending on the library that you link to your HTML page- using javascript.
+
 ### Chart.js API.
 
 Before you learn how to create charts you need to download [chart.js](https://github.com/chartjs/Chart.js) and copy chart.min.js inside your directory, and then you need to link it in the HTML file:
@@ -33,10 +37,3 @@ For bar chart, after creating canvas element and creating id *income*, do the fo
 ![bar chart](img/6.PNG)
 
 ![bar data](img/7.PNG)
-
-
-the final result of the three charts should look like this:
-
-![final result](img/8.PNG)
-
-
