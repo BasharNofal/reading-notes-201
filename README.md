@@ -51,7 +51,6 @@
 |   [Class 14](https://basharnofal.github.io/reading-notes-301/class-14/)	|   Database Normalization  |
 
 &nbsp;
-# Code 401 - Advanced Software Development
 
 |   [ Code 401 Reading Notes Repo](https://github.com/BasharNofal/reading-notes-401)	|   Code 401 - Advanced Software Development	|
 |---	|---    |
